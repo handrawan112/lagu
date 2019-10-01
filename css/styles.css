@@ -1,0 +1,43 @@
+body {
+  width:100%;
+  height:100%;
+}
+.woa-atas-jarak {
+  margin-top:12%;
+}
+  .woa-huruf {
+	font-size:2.3rem;
+	text-align:center;
+	padding:12px;
+  }
+  .woa-ukuran {
+	font-size:2.3rem;
+  }
+  .woa-search-size {
+	font-size:1.5rem;
+  }
+  #carix {
+	font-size:2.3rem;
+	width:100%;
+  }
+  .loading {
+	display:none;
+	margin-left:45%;
+  }
+  .woa-hasil-form {
+	width:60%;
+	margin-left:1%;
+	margin-right:30%;
+	margin-top:3%;
+  }
+  .woa-hasil-batas {
+  padding:20px;
+  }
+  .status {
+	color:red;
+  }
+  .woa-info-device {
+	margin-left:65%;
+	margin-top:0%;
+	padding:20px;
+  }
