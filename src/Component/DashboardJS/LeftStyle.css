@@ -1,0 +1,38 @@
+
+@media screen and (min-width:992px) {
+  .LeftBG {
+    background:#EFE2BA;
+    color:rgb(78,79,80);
+    left:0;
+    padding:25px;
+    text-align:left;
+    text-transform:full-width;
+    height:100vh;
+    margin:0 !important;
+    text-decoration: none;
+    text-rendering:geometricPrecision;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .LeftBG {
+    background:#EFE2BA;
+    color:rgb(78,79,80);
+    left:0;
+    padding:25px;
+    text-align:left;
+    text-transform:full-width;
+    height:auto;
+    margin:0 !important;
+    text-decoration: none;
+    text-rendering:geometricPrecision;
+  }
+}
+
+.Link {
+  text-decoration: none;
+}
+
+.Link:hover {
+  background:#eee;
+}
