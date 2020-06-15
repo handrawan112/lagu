@@ -1,4 +1,6 @@
 .RightBG {
+  overflow: auto;
+  max-height:100vh;
   background:#eee;
   mix-blend-mode: luminosity;
 }

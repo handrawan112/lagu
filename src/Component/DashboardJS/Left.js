@@ -3,9 +3,56 @@ import React from "react";
 import {Row,Col,Button} from "reactstrap";
 import "./LeftStyle.css";
 
+import {listLaguContext,updateContext,urlContext,apiContext} from "../../context";
 import {Link} from "react-router-dom";
 
+import axios from "axios";
+
 export default function Left(){
+
+//global context
+let API_YT=React.useContext(apiContext);
+let baseUrl=React.useContext(urlContext);
+let lagu=React.useContext(listLaguContext);
+let update=React.useContext(updateContext);
+//global context
+
+const [search,setSearch]=React.useState("");
+
+const stringify=React.useCallback((handrawan)=>{
+  var temp=[];
+  for(var i in handrawan){
+    temp.push(i+"="+handrawan[i]);
+    temp.push("&");}
+    temp.pop();
+    return temp.join("").toString();
+},[]);
+
+const getLagu=React.useCallback((e)=>{
+  e.preventDefault();
+  let params={
+    part:"snippet",
+    key:API_YT,
+    maxResults:50,
+    q:search,
+  };
+  axios({
+    url:`${baseUrl}?${stringify(params)}`,
+    method:"GET",
+  }).then(({data})=>{
+    update({type:"LIST_LAGU",LIST_LAGU:data});
+  }).catch(err=>{
+    if(err.response===undefined){
+      console.log(err.message);
+    }else{
+      console.log(err.response.data.message);
+    }
+  });
+},[baseUrl,stringify,API_YT,search,update]);
+
+const handleSearch=React.useCallback((e)=>{
+  setSearch(e.target.value);
+},[search,setSearch]);
 
   return (
       <Col className="LeftBG" sm="12" md="2">
@@ -15,14 +62,16 @@ export default function Left(){
           </div>
         </Row>
         <Row>
+        <form onSubmit={getLagu}>
           <div className="mb-3">
             <div class="input-group">
-              <input type="text" class="form-control" placeholder="Once - Aku Mau" />
+              <input type="text" class="form-control" placeholder="Once - Aku Mau" onInput={handleSearch} />
               <div class="input-group-prepend">
                 <Button color="dark" class="input-group-text"><i className="fa fa-search" /></Button>
               </div>
             </div>
           </div>
+        </form>
         </Row>
         <Row>
           <div className="mb-3">
