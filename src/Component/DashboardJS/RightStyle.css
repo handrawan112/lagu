@@ -4,3 +4,9 @@
   background:#eee;
   mix-blend-mode: luminosity;
 }
+
+.ErrorBG {
+  padding:15px;
+  margin-top:25px;
+  color:red;
+}

@@ -17,7 +17,7 @@ let lagu=React.useContext(listLaguContext);
 let update=React.useContext(updateContext);
 //global context
 
-const [search,setSearch]=React.useState("");
+const [search,setSearch]=React.useState("musik indonesia");
 
 const stringify=React.useCallback((handrawan)=>{
   var temp=[];
@@ -28,8 +28,7 @@ const stringify=React.useCallback((handrawan)=>{
     return temp.join("").toString();
 },[]);
 
-const getLagu=React.useCallback((e)=>{
-  e.preventDefault();
+const getLaguList=React.useCallback(()=>{
   let params={
     part:"snippet",
     key:API_YT,
@@ -42,17 +41,28 @@ const getLagu=React.useCallback((e)=>{
   }).then(({data})=>{
     update({type:"LIST_LAGU",LIST_LAGU:data});
   }).catch(err=>{
-    if(err.response===undefined){
-      console.log(err.message);
+    let msg="";
+    if(err.response.data.message===undefined){
+      msg=err.message;
     }else{
-      console.log(err.response.data.message);
+      msg=err.response.data.message;
     }
+    update({type:"ERROR",ERROR:msg});
   });
 },[baseUrl,stringify,API_YT,search,update]);
 
+const getLagu=React.useCallback((e)=>{
+  e.preventDefault();
+  getLaguList();
+},[getLaguList]);
+
+React.useEffect(()=>{
+  getLaguList();
+},[getLaguList]);
+
 const handleSearch=React.useCallback((e)=>{
   setSearch(e.target.value);
-},[search,setSearch]);
+},[setSearch]);
 
   return (
       <Col className="LeftBG" sm="12" md="2">

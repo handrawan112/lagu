@@ -13,6 +13,8 @@ export function ContextData(state,action){
       return {BOOKMARK:action.BOOKMARK};
     case "HISTORY":
       return {HISTORY:action.HISTORY};
+    case "ERROR":
+      return {ERROR:action.ERROR};
     default:
       break;
   }

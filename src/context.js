@@ -15,3 +15,5 @@ export let bookmarkContext=createContext({});
 export let updateContext=createContext(undefined);
 
 export let storeContext=createContext(undefined);
+
+export let errorContext=createContext(undefined);
