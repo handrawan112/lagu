@@ -3,9 +3,10 @@ import React from "react";
 import {Container,Row} from "reactstrap";
 
 import Left from "../Component/DashboardJS/Left";
-import Right from "../Component/DashboardJS/Right";
+import RightSwitch from "../Component/RightSwitch";
 
 import ProviderContext from "./ContextProvider";
+
 
 export default function Dashboard(){
 
@@ -14,7 +15,7 @@ export default function Dashboard(){
           <Container fluid>
             <Row>
               <Left />
-              <Right />
+              <RightSwitch />
             </Row>
           </Container>
         </ProviderContext>

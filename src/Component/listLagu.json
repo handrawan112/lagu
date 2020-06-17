@@ -1,0 +1,1706 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "PiZK0gE9JM8yBl8_ZC5p4q1eoxY",
+  "nextPageToken": "CDIQAA",
+  "regionCode": "ID",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 50
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0rdoKdNrAVYUX4caZqWwp-RrJvQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "AE0dXfUr-6c"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-23T22:00:02Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/AE0dXfUr-6c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/AE0dXfUr-6c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/AE0dXfUr-6c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-23T22:00:02Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bp-stXAVyHs3J6UW1clh7SVBm3A",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLkbaG37V-vG8Fib_qvgOKf3qzqA0SUk59"
+      },
+      "snippet": {
+        "publishedAt": "2015-01-26T14:04:32Z",
+        "channelId": "UC4n92itQi0iiQnhlNyg1pDw",
+        "title": "LAGU INDONESIA TERBARU 2020 (Playlist Teman Kerja & Saat Santai)",
+        "description": "TOP TRACKS INDONESIA 2019-2020 by #IndoMusicCharts #Musicvideos Playlist ini akan selalu up to date. kamu bisa menumukannya di: Lagu Indonesia ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8uy7G2JXVSA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8uy7G2JXVSA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8uy7G2JXVSA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "#IndoMusicCharts",
+        "liveBroadcastContent": "none",
+        "publishTime": "2015-01-26T14:04:32Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "rU2GlRSBwUmb63tFhyiujhE7jVY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Y9d16BqsXU0"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-12T22:00:08Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Y9d16BqsXU0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Y9d16BqsXU0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Y9d16BqsXU0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-12T22:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uIXtDQJOZ62ANt3acXqzy21I_sA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XbrzPBq8iEg"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-12T01:18:29Z",
+        "channelId": "UCudNbj9A53tt5emBC3SWAGQ",
+        "title": "💊💊💊 DJ Terbaru 2020 - DJ TIK TOK 2020 - 🌲 DJ LAGU INDONESIA TERBARU 2020",
+        "description": "music chill : https://youtu.be/IvZKkasn6U0 DJ TERBARU https://www.youtube.com/watch?v=V9_emBny1IM @Selena Musik channel Subscribe to help my ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XbrzPBq8iEg/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XbrzPBq8iEg/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XbrzPBq8iEg/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Selena Musik",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-05-12T01:18:29Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "BmSok9P_RCl5dgbKckmhZ9sXLtI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "6SIBnMprb84"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-07T22:00:00Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6SIBnMprb84/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6SIBnMprb84/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6SIBnMprb84/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-07T22:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gZyXpCDfCywVBCkeDfMQojavVTI",
+      "id": {
+        "kind": "youtube#channel",
+        "channelId": "UCdVVKqGCz172OeyJ6fCGlVA"
+      },
+      "snippet": {
+        "publishedAt": "2017-12-11T18:10:35Z",
+        "channelId": "UCdVVKqGCz172OeyJ6fCGlVA",
+        "title": "MUSIK INDONESIA",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-zjGpGAaM0Xs/AAAAAAAAAAI/AAAAAAAAAAA/Zqrw9he5Cbo/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-zjGpGAaM0Xs/AAAAAAAAAAI/AAAAAAAAAAA/Zqrw9he5Cbo/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-zjGpGAaM0Xs/AAAAAAAAAAI/AAAAAAAAAAA/Zqrw9he5Cbo/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "MUSIK INDONESIA",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-12-11T18:10:35Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6gxHbYhtTEzaMBcM_4JuFySeoeA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CQTS2acnxzU"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-04T22:00:03Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CQTS2acnxzU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CQTS2acnxzU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CQTS2acnxzU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-04T22:00:03Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "YAJzEE607zdKZmevIo31Rmgeq9c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "WA3D4x_7nWQ"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-08T22:00:04Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/WA3D4x_7nWQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/WA3D4x_7nWQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/WA3D4x_7nWQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-08T22:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "oT2vGR5U5rTSzUyZrAFPT0z3B3Y",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zV05QDPxonc"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-27T22:00:30Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zV05QDPxonc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zV05QDPxonc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zV05QDPxonc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-27T22:00:30Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "XSqLPdAR1FGSpNKUbui74WBNWaY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yQbrJumxsks"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-15T22:00:15Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yQbrJumxsks/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yQbrJumxsks/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yQbrJumxsks/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-15T22:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "vQL_FQ9GEt5bWW-uT01NBENoJMU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "U6HrRVTrMBY"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-16T22:00:15Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/U6HrRVTrMBY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/U6HrRVTrMBY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/U6HrRVTrMBY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-16T22:00:15Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5p7Tx8CgPLcBjutml1U3DAVrPtU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HAa6uQpkB5g"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-11T03:08:22Z",
+        "channelId": "UCNlU3oSU8UnJ_V9uMB-cPOg",
+        "title": "Lagu Indonesia Terbaik - Terpopuler - Terhits Sepanjang Masa #MusicStream #LiveMusic #DirumahAja",
+        "description": "Selamat Datang di Live Music Musica Studio's #LiveStream #LiveMusic #DirumahAja #SamaSaya Jangan ketinggalan update terbaru dari Musica Studio's ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HAa6uQpkB5g/default_live.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HAa6uQpkB5g/mqdefault_live.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HAa6uQpkB5g/hqdefault_live.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Musica Studio's",
+        "liveBroadcastContent": "live",
+        "publishTime": "2020-06-11T03:08:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V2EgersciOchleZ7Hk4rQ3__faI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "cBrPE-gikwk"
+      },
+      "snippet": {
+        "publishedAt": "2018-12-21T17:21:59Z",
+        "channelId": "UCju42L_BJKkrWw_31T6VWzQ",
+        "title": "Lagu Romantis Indonesia 2019 - &quot;Tak seindah cinta yang semestinya&quot; Lyrics",
+        "description": "NaFF- Tak Seindah Cinta Yang Semestinya (Lyrics) Cover By Della Firdatia ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖ Thanks For Watching ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖ *Tonton...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cBrPE-gikwk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cBrPE-gikwk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cBrPE-gikwk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Lapo Lyrics",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-12-21T17:21:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qeEtYCbKllrdMVJJxooDVnFKZsA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XL746UqncQg"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-30T22:00:20Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XL746UqncQg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XL746UqncQg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XL746UqncQg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-30T22:00:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "sOkZaBOEIxod5O1kjQda_fbitZQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "a_xvMq6MYi8"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-11T22:00:00Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/a_xvMq6MYi8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/a_xvMq6MYi8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/a_xvMq6MYi8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-11T22:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "yESqJwVtOjf5LEESI-CUnU05T38",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "tlyyHNwpDp8"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-10T22:00:26Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/tlyyHNwpDp8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/tlyyHNwpDp8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/tlyyHNwpDp8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-10T22:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ndFY9MFtV1HVCFDQKNIysOqH1_U",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "FZjk56FfdJY"
+      },
+      "snippet": {
+        "publishedAt": "2019-06-28T07:58:49Z",
+        "channelId": "UCebb7o98FEA73WjNsCja5Xg",
+        "title": "Judika - Cinta Karena Cinta | Official Music Video",
+        "description": "Judika - Cinta Karena Cinta | Official Music Video (Audio : http://lnk.to/cintakarenacinta) Lagu \"Cinta Karena Cinta\" merupakan lagu yang diadaptasi dari lagu ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/FZjk56FfdJY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/FZjk56FfdJY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/FZjk56FfdJY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Trinity Optima Production",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-06-28T07:58:49Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "N-ZGtEcY3cW6cNz0Asdc106bXpU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "1vYSp71wZyM"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-07T22:00:00Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/1vYSp71wZyM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/1vYSp71wZyM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/1vYSp71wZyM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-07T22:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2Y36h87-3f0qcGoI5ADMvsObvMs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "4yMtxNCeb9Y"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-21T22:00:00Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/4yMtxNCeb9Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/4yMtxNCeb9Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/4yMtxNCeb9Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-21T22:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eaF4jZOUyXhRO3CLkC_fOX3_cPo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "SDbfo4Li_tE"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-17T22:08:04Z",
+        "channelId": "UCtosYjPlKeMd0vgoippJUNQ",
+        "title": "Lagu cinta  terbaru 2020.",
+        "description": "Jangan lupa subscribe, like ,shere, dan komen ya karena dg itu dapat membantu kami membangun chennel ini.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SDbfo4Li_tE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SDbfo4Li_tE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SDbfo4Li_tE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "lagu populer hit sepanjang masa",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-17T22:08:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9pJs6VwwKharn2JoS5aoUEHSqyo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "oRjdcZkLhjA"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-15T06:00:10Z",
+        "channelId": "UCAvHyZ5yYEwDCu0PbVAi1PQ",
+        "title": "Dara Ayu - Aku Rela [ Official Music Video 27 Musik Indonesia ]",
+        "description": "Title : Aku Rela Artis : Dara Ayu Songwriter : Suhendri Label : PT. Dua Tujuh Delapan ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/oRjdcZkLhjA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/oRjdcZkLhjA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/oRjdcZkLhjA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "27 Musik Indonesia",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-15T06:00:10Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Aa_gVN3gd107E9BSjKqRqSrktS8",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zDt3QiZ8MhA"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-25T22:00:24Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zDt3QiZ8MhA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zDt3QiZ8MhA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zDt3QiZ8MhA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-25T22:00:24Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "srD6rwQmAJV2zJ57XOigQtrT6JY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uqO9hUJ93ok"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-22T22:00:26Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uqO9hUJ93ok/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uqO9hUJ93ok/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uqO9hUJ93ok/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-22T22:00:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "V4p0u-UiPsrNoK1cp3DFh7CV_AQ",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PL36sQg2C8_q3gYMzTvVUCRHKAxdkc6jYO"
+      },
+      "snippet": {
+        "publishedAt": "2016-06-07T21:50:23Z",
+        "channelId": "UC6cj5NoVEx48MjEIDg1h7YA",
+        "title": "LAGU INDONESIA TERBAIK TAHUN 2000an",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/5siT6NxogtM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/5siT6NxogtM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/5siT6NxogtM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Feri Yref",
+        "liveBroadcastContent": "none",
+        "publishTime": "2016-06-07T21:50:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "k9Nr_j_x6P9anrMJ4KRISa-Y_VI",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "zkkRcKUaoTs"
+      },
+      "snippet": {
+        "publishedAt": "2019-03-20T15:54:34Z",
+        "channelId": "UCZzv8SCtOFzDPLJj4fY68gg",
+        "title": "kumpulan lagu indonesia tahun 2000an hits terbaik",
+        "description": "kumpulan lagu indonesia pilihan terbaik tahun 2000an.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zkkRcKUaoTs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zkkRcKUaoTs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zkkRcKUaoTs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "mas arga",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-03-20T15:54:34Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KlT8KT6jhbGnsPTPUzhqUV3YgIo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "yw4e0OKleEo"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-14T22:00:12Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/yw4e0OKleEo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/yw4e0OKleEo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/yw4e0OKleEo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-14T22:00:12Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Vs5d2gdpBgfTV0qj_wmIoHca3Zk",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "CoS7SguM7fk"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-04T22:00:06Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/CoS7SguM7fk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/CoS7SguM7fk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/CoS7SguM7fk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-04T22:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pzYLj0KYKFYOdLgwEPlaXQujdsE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "LxDWK1xf6Eg"
+      },
+      "snippet": {
+        "publishedAt": "2020-06-13T22:00:04Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LxDWK1xf6Eg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LxDWK1xf6Eg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LxDWK1xf6Eg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-06-13T22:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "0RoaNC4xmQKIA3gpjQRsZdjkUvo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hm8NxjbCH7Q"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-24T22:00:13Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hm8NxjbCH7Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hm8NxjbCH7Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hm8NxjbCH7Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-24T22:00:13Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Az-o8BJwL7BfV5uLR3JKZ1d4BRA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "XxAT-T3lk8E"
+      },
+      "snippet": {
+        "publishedAt": "2019-03-09T15:29:38Z",
+        "channelId": "UC_pGEegLWENcFUm4Yw5AlGA",
+        "title": "Lagu Akustik Paling Enak &quot; MUNGKIN - POTRET &quot; Cover By Tival Salsabilah",
+        "description": "MUNGKIN - POTRET | Cover By Tival Salsabilah (Lyrics) ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖ Thanks For Watching ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖ THANKS FOR WATCHING ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/XxAT-T3lk8E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/XxAT-T3lk8E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/XxAT-T3lk8E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Geek Hour",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-03-09T15:29:38Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "UovpY6z-zFV2PRuinLEDl5Ek_3g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "gAJB3DcnC3Q"
+      },
+      "snippet": {
+        "publishedAt": "2018-03-24T02:32:56Z",
+        "channelId": "UC2rrgSgr612_gOUpyDC81zQ",
+        "title": "AZMI - Pernah (Lirik lagu Indonesia)",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/gAJB3DcnC3Q/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/gAJB3DcnC3Q/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/gAJB3DcnC3Q/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Santra Wayan",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-03-24T02:32:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bP961nicbO9Le7FJKIc2AECU0fQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hGJipHKALac"
+      },
+      "snippet": {
+        "publishedAt": "2020-01-04T22:00:05Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hGJipHKALac/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hGJipHKALac/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hGJipHKALac/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-01-04T22:00:05Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "wHO-hWZZCRzEyp7IeyjBxU7UqhE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "mlBb69VhMXA"
+      },
+      "snippet": {
+        "publishedAt": "2018-02-23T12:07:56Z",
+        "channelId": "UCX12AnTEZvCaiN69SwWS3SA",
+        "title": "DJ Slow Remix Santai Musik Indonesia Pilihan Terbaik (((Super Bass)))",
+        "description": "DJ Slow Remix Santai Musik Indonesia Pilihan Terbaik (((Super Bass))) ✓Channel that provides the BEST music entertainment Subscribe/follow DJ Nanda™ ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/mlBb69VhMXA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/mlBb69VhMXA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/mlBb69VhMXA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "DJ Nanda",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-02-23T12:07:56Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "eL-4u5jEX8sKgVjS5s37ENi0ZsQ",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xxI3IQUbt0o"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-20T22:00:21Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xxI3IQUbt0o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xxI3IQUbt0o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xxI3IQUbt0o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-20T22:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lyYuXEgcvfQXOIosWgDvaDfasG8",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLU4GTyMETaQ6_6ZSniBW8x5TGCju1B6RQ"
+      },
+      "snippet": {
+        "publishedAt": "2017-03-01T02:42:23Z",
+        "channelId": "UCf1v9mk7xBzKsSfWvFZSK-g",
+        "title": "Lagu Pop Indonesia Era 2000an - 2018",
+        "description": "Koleksi Lagu-lagu Pop Hits Terpopuler Indonesia Era Tahun 2000an - 2018. Hits Nostalgia Indonesia (Lagu Terbaik 2000an - 2018). Band Pop, Rock, Reggae, ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/py6GDNgye6k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/py6GDNgye6k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/py6GDNgye6k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Edy Nurkholis",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-03-01T02:42:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "R-mvp6lTL6_r8xObJYp-MlpNmmE",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "iEkETgm-fFo"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-26T04:39:22Z",
+        "channelId": "UC2OGKYa0QNSbyWl1wrTy8MA",
+        "title": "LAGU INDO ENAK DI DENGAR UNTUK MENEMANI WAKTU SANTAI | PENGHANTAR TIDUR ( COVER )",
+        "description": "FOLOW YA INSTAGRAM MIMIN 🤭 https://www.instagram.com/januarsadam/?hl=id LAGU INDO ENAK DIDENGAR PENGHANTAR TIDUR LAGU INDO ENAK ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/iEkETgm-fFo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/iEkETgm-fFo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/iEkETgm-fFo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HITS 99",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-26T04:39:22Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_iuSpQotDRWeEoJlbcV8foNLSL4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "lN8tHJJIJFA"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-12T22:00:11Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lN8tHJJIJFA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lN8tHJJIJFA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lN8tHJJIJFA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-12T22:00:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "qaWnb_F8PVSV1SNzGQk0Jw7Z6NY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "t3mO4QrXbjw"
+      },
+      "snippet": {
+        "publishedAt": "2020-02-05T22:00:08Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/t3mO4QrXbjw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/t3mO4QrXbjw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/t3mO4QrXbjw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-02-05T22:00:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jxwtFXenpQKWAYE5EABaBzedh6o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Xp-Z7yJOwTY"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-16T22:00:04Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Xp-Z7yJOwTY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Xp-Z7yJOwTY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Xp-Z7yJOwTY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-16T22:00:04Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "noskSfeSumydiv6JBIKA5RaiiFg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Va1uR_UX9LM"
+      },
+      "snippet": {
+        "publishedAt": "2019-07-22T01:20:23Z",
+        "channelId": "UCNkGn8rLa5w_ccqI2hfGDqw",
+        "title": "Asal Kau Bahagia, Cinta Luar Biasa 🔊 Saxophone Lagu Indonesia Paling Enak Di Dengar 2019",
+        "description": "Asal Kau Bahagia, Cinta Luar Biasa Saxophone Lagu Indonesia Paling Enak Di Dengar 2019 Asal Kau Bahagia, Cinta Luar Biasa Saxophone Lagu ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Va1uR_UX9LM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Va1uR_UX9LM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Va1uR_UX9LM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Relaxing Music",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-07-22T01:20:23Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "e9tbPwfozi_hAIscEugx-vSeoJ0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "3fqgwO_Byg4"
+      },
+      "snippet": {
+        "publishedAt": "2019-07-10T01:55:51Z",
+        "channelId": "UCeVYolLfFhyi3yD-0ZKdpUQ",
+        "title": "Kumpulan Lagu pop indonesia terpopuler 2019",
+        "description": "lagupopindonesiaterbaru2019#laguterbaru2019indonesia Best Lagu Pop Indonesia Terbaru 2019 Cinta Luar Biasa Terhits -Paling Enak Didengar 1.Cinta Luar ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/3fqgwO_Byg4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/3fqgwO_Byg4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/3fqgwO_Byg4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "RODOLI SARAGI",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-07-10T01:55:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "bTS6k8HKquxbXMIsd2gqxmKC3kM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "ihSQUBV_X1k"
+      },
+      "snippet": {
+        "publishedAt": "2019-11-27T04:28:17Z",
+        "channelId": "UCYJo04cZFlwL3XNnJ8aYtTw",
+        "title": "Andmesh - Kumau Dia (Official Music Video)",
+        "description": "Hampir semua orang pasti pernah mengalami cinta dengan yang berbeda, berbeda Agama, keyakinan, & prinsip. Banyak hal yang dapat dialami dalam sebuah ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ihSQUBV_X1k/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ihSQUBV_X1k/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ihSQUBV_X1k/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "HITS Records",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-11-27T04:28:17Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "_v4qYWBgF4GhFBpAgrAAahkgD1Q",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLkbaG37V-vG8Dsx0YlrD3nXQIVuutl4hK"
+      },
+      "snippet": {
+        "publishedAt": "2014-10-17T22:56:00Z",
+        "channelId": "UC4n92itQi0iiQnhlNyg1pDw",
+        "title": "Lagu Indonesia Tahun 2000an Terbaik & Terpopuler",
+        "description": "POPULAR ON YOUTUBE INDONESIA Lagu Indonesia Populer tahun 2000an #Musik by #IndoMusicCharts Various Artists: Slank, Peterpan, Sheila On 7, Dewa ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SKV13bVJKJ4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SKV13bVJKJ4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SKV13bVJKJ4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "#IndoMusicCharts",
+        "liveBroadcastContent": "none",
+        "publishTime": "2014-10-17T22:56:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "7c9P6VMg81444Um6N0cA3it-e10",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HyUkvzuLUSk"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-30T22:00:06Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HyUkvzuLUSk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HyUkvzuLUSk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HyUkvzuLUSk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-30T22:00:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "KtUcCsGxzrmqkofwx_72gmWKFiA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "v-KyaI3j438"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-01T22:00:31Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/v-KyaI3j438/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/v-KyaI3j438/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/v-KyaI3j438/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-01T22:00:31Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "dIz_HtxEydKqC51n1zmlMLkSi5E",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "hCe6ybDr20c"
+      },
+      "snippet": {
+        "publishedAt": "2020-05-15T22:00:21Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hCe6ybDr20c/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hCe6ybDr20c/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hCe6ybDr20c/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-05-15T22:00:21Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PBT498dLMxNIlJMSmnme9UDozGA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-W4bG76tNCk"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-26T22:00:01Z",
+        "channelId": "UCC1Mg8YEIAd7bsoCCbxZq3A",
+        "title": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja",
+        "description": "Top Lagu Pop Indonesia Terbaru 2020 Hits Pilihan Terbaik+enak Didengar Waktu Kerja Thanks for watching! Don't forget to SUBCRIBE, Like & Share my video ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-W4bG76tNCk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-W4bG76tNCk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-W4bG76tNCk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "nayan barari",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-26T22:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pOAKpvpibY7Y0LYiDPNXiyRsvrU",
+      "id": {
+        "kind": "youtube#playlist",
+        "playlistId": "PLY_8atzRDhUfKzaKGYS4PEkCqPYow5Kp8"
+      },
+      "snippet": {
+        "publishedAt": "2017-04-13T14:55:11Z",
+        "channelId": "UChsBxLjnJ_039al-y35el3Q",
+        "title": "MIX MUSIK INDONESIA - GENERASI MTV AMPUH",
+        "description": "Mix Musik Indonesia - Generasi MTV AMPUH. Kumpulan Lagu Indonesia. Pop Musik, Lagu Populer - Trending Lagu Indonesia Pada Zamannya. MTV AMPUH.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/EZTqg1MgkTY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/EZTqg1MgkTY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/EZTqg1MgkTY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Naikgoogle Network",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-04-13T14:55:11Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DRVvmyDzdFLLzBxDj_rlTpn_SiY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "YecHcQbgjHU"
+      },
+      "snippet": {
+        "publishedAt": "2019-10-11T10:23:46Z",
+        "channelId": "UCRp2Vi88lo_iBasQmOS-1LQ",
+        "title": "Kumpulan Lagu Terbaik Judika 2019 || Lagu Indonesia Terbaru 2019 Cinta Karena Cinta",
+        "description": "vidio ini berisi tentang Kumpulan Lagu Terbaik Judika 2019 Lagu Indonesia Terbaru 2019 Cinta Karena Cinta atau Kumpulan Lagu Terbaik Judika 2019 || Lagu ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/YecHcQbgjHU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/YecHcQbgjHU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/YecHcQbgjHU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Compilation Music IND",
+        "liveBroadcastContent": "none",
+        "publishTime": "2019-10-11T10:23:46Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "9PTQTcoLi3iLbsGFDgvWVqYGa_0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "8uy7G2JXVSA"
+      },
+      "snippet": {
+        "publishedAt": "2020-03-26T08:00:12Z",
+        "channelId": "UCa_RUwqQU0oAxEI2lh4RvEQ",
+        "title": "Weird Genius - Lathi (ft. Sara Fajira) Official Music Video",
+        "description": "OUT NOW! Stream on digital stores worldwide. https://listen.lt/WeirdGeniusLathi Reza Oktovian, Eka Gustiwana, Gerald Liu; the three now known as Weird ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/8uy7G2JXVSA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/8uy7G2JXVSA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/8uy7G2JXVSA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Weird Genius",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-03-26T08:00:12Z"
+      }
+    }
+  ]
+}

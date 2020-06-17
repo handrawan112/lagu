@@ -4,11 +4,15 @@ import {Row,Col,Button} from "reactstrap";
 import "./LeftStyle.css";
 
 import {listLaguContext,updateContext,urlContext,apiContext} from "../../context";
-import {Link} from "react-router-dom";
+import {Link,useRouteMatch} from "react-router-dom";
+
+import dummy from "../listLagu.json";
 
 import axios from "axios";
 
 export default function Left(){
+
+let {path}=useRouteMatch();
 
 //global context
 let API_YT=React.useContext(apiContext);
@@ -29,34 +33,31 @@ const stringify=React.useCallback((handrawan)=>{
 },[]);
 
 const getLaguList=React.useCallback(()=>{
-  let params={
-    part:"snippet",
-    key:API_YT,
-    maxResults:50,
-    q:search,
-  };
-  axios({
-    url:`${baseUrl}?${stringify(params)}`,
-    method:"GET",
-  }).then(({data})=>{
-    update({type:"LIST_LAGU",LIST_LAGU:data});
-  }).catch(err=>{
-    let msg="";
-    if(err.response.data.message===undefined){
-      msg=err.message;
-    }else{
-      msg=err.response.data.message;
-    }
-    update({type:"ERROR",ERROR:msg});
-  });
-},[baseUrl,stringify,API_YT,search,update]);
+  update({type:"LIST_LAGU",LIST_LAGU:dummy});
+  // let params={
+  //   part:"snippet",
+  //   key:API_YT,
+  //   maxResults:50,
+  //   q:search,
+  // };
+  // axios({
+  //   url:`${baseUrl}?${stringify(params)}`,
+  //   method:"GET",
+  // }).then(({data})=>{
+  //   update({type:"LIST_LAGU",LIST_LAGU:data});
+  // }).catch(err=>{
+  //   let msg="";
+  //   if(err.response.data.message===undefined){
+  //     msg=err.message;
+  //   }else{
+  //     msg=err.response.data.message;
+  //   }
+  //   update({type:"ERROR",ERROR:msg});
+  // });
+},[baseUrl,stringify,API_YT,search,update,dummy]);
 
 const getLagu=React.useCallback((e)=>{
   e.preventDefault();
-  getLaguList();
-},[getLaguList]);
-
-React.useEffect(()=>{
   getLaguList();
 },[getLaguList]);
 
@@ -85,7 +86,7 @@ const handleSearch=React.useCallback((e)=>{
         </Row>
         <Row>
           <div className="mb-3">
-            <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to="/bookmark">
+            <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to={`${path}/bookmark`}>
               <h6><i className="fa fa-bookmark" /> Bookmark</h6>
             </Link>
           </div>
