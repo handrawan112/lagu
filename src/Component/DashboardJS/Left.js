@@ -3,7 +3,7 @@ import React from "react";
 import {Row,Col,Button} from "reactstrap";
 import "./LeftStyle.css";
 
-import {listLaguContext,updateContext,urlContext,apiContext} from "../../context";
+import {storeContext,updateContext,urlContext,apiContext} from "../../context";
 import {Link,useRouteMatch} from "react-router-dom";
 
 import dummy from "../listLagu.json";
@@ -17,8 +17,9 @@ let {path}=useRouteMatch();
 //global context
 let API_YT=React.useContext(apiContext);
 let baseUrl=React.useContext(urlContext);
-let lagu=React.useContext(listLaguContext);
+let lagu=React.useContext(storeContext);
 let update=React.useContext(updateContext);
+let store=React.useContext(storeContext);
 //global context
 
 const [search,setSearch]=React.useState("musik indonesia");
@@ -33,7 +34,7 @@ const stringify=React.useCallback((handrawan)=>{
 },[]);
 
 const getLaguList=React.useCallback(()=>{
-  update({type:"LIST_LAGU",LIST_LAGU:dummy});
+  update({LIST_LAGU:dummy});
   // let params={
   //   part:"snippet",
   //   key:API_YT,
@@ -55,6 +56,10 @@ const getLaguList=React.useCallback(()=>{
   //   update({type:"ERROR",ERROR:msg});
   // });
 },[baseUrl,stringify,API_YT,search,update,dummy]);
+
+React.useEffect(()=>{
+  getLaguList();
+},[getLaguList]);
 
 const getLagu=React.useCallback((e)=>{
   e.preventDefault();
@@ -86,6 +91,13 @@ const handleSearch=React.useCallback((e)=>{
         </Row>
         <Row>
           <div className="mb-3">
+            <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to={`${path}`}>
+              <h6><i className="fa fa-home" />Home</h6>
+            </Link>
+          </div>
+        </Row>
+        <Row>
+          <div className="mb-3">
             <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to={`${path}/bookmark`}>
               <h6><i className="fa fa-bookmark" /> Bookmark</h6>
             </Link>
@@ -93,7 +105,7 @@ const handleSearch=React.useCallback((e)=>{
         </Row>
         <Row>
           <div className="mb-3">
-            <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to="/bookmark">
+            <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to={`${path}/history`}>
               <h6><i className="fa fa-history" /> History</h6>
             </Link>
           </div>

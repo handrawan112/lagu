@@ -1,19 +1,20 @@
 import React from 'react';
 
-import {Switch,Route,withRouter,useRouteMatch} from "react-router-dom";
+import {Switch,Route,withRouter,useHistory} from "react-router-dom";
 
 import Dashboard from "./Pages/Dashboard";
 
 function App() {
 
-  let {path}=useRouteMatch();
+  let history=useHistory();
+
+  React.useEffect(()=>{
+    history.push("/lagu");
+  },[history]);
 
   return (
     <Switch>
-      <Route path="/" exact>
-        wawan
-      </Route>
-      <Route path="/tes">
+      <Route path="/lagu">
         <Dashboard />
       </Route>
     </Switch>

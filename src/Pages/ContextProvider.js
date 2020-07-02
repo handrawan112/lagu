@@ -1,25 +1,19 @@
 import React from "react";
 
-import {storeContext,listLaguContext,historyContext,bookmarkContext,updateContext,errorContext} from "../context";
-import {ContextData,dataContext} from "../Component/reducer";
+import {storeContext,updateContext} from "../context";
+let stateX={
+  LIST_LAGU:undefined,
+  LIST_LAGU_ERROR:undefined
+};
 
 export default function ProviderContext(props){
-
-let [state,dispatch]=React.useReducer(ContextData,dataContext);
+let [state,dispatch]=React.useReducer((state,newValue)=>({...state,...newValue}),stateX);
 
   return (
     <updateContext.Provider value={dispatch}>
-      <errorContext.Provider value={state.ERROR}>
-        <storeContext.Provider value={[]}>
-          <listLaguContext.Provider value={state.LIST_LAGU}>
-            <historyContext.Provider value={state.HISTORY}>
-              <bookmarkContext.Provider value={state.BOOKMARK}>
-                  {props.children}
-              </bookmarkContext.Provider>
-            </historyContext.Provider>
-          </listLaguContext.Provider>
+        <storeContext.Provider value={state}>
+          {props.children}
         </storeContext.Provider>
-      </errorContext.Provider>
     </updateContext.Provider>
   );
 
