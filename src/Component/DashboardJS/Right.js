@@ -6,6 +6,7 @@ import "./RightStyle.css";
 
 import {storeContext} from "../../context";
 import {BTNBookmark} from "../Storage/storageContext";
+import ModalToggle from "../ModalVideo";
 
 export default function Right(){
 
@@ -24,16 +25,17 @@ if(lagu.LIST_LAGU_ERROR===undefined){
             return (
               <Col sm="6" md="4" className="text-center mt-4">
                 {/*
-                  <img src={item.snippet.thumbnails.high.url} width="350" height="400" alt="image" />
+                  <iframe title={item.id.videoId} src={`https://www.youtube.com/embed/${item.id.videoId}?controls=1`} style={{"border":"none"}} width="350" height="300"></iframe>
                 */}
-                <iframe title={item.id.videoId} src={`https://www.youtube.com/embed/${item.id.videoId}?controls=1`} style={{"border":"none"}} width="350" height="300"></iframe>
-                <h5>{item.snippet.title}</h5>
-                <div>Diupload oleh : {item.snippet.channelTitle}</div>
-                <div>Published time : {new Date(item.snippet.publishedAt).toLocaleDateString()+" "+new Date(item.snippet.publishedAt).toLocaleTimeString()}</div>
-                {
+                <img src={item.snippet.thumbnails.high.url} width="350" height="300" alt="foto" />
+                <h5>{
                   window.localStorage?
                   <BTNBookmark keyId={item.id.videoId} value={item} initName={"Bookmark"} />:null
-                }
+                } {item.snippet.title}</h5>
+                <div>Diupload oleh : {item.snippet.channelTitle}</div>
+                <div>Published time : {new Date(item.snippet.publishedAt).toLocaleDateString()+" "+new Date(item.snippet.publishedAt).toLocaleTimeString()}</div>
+                <ModalToggle videoId={item.id.videoId} titleHeader={item.snippet.title} date={item.snippet.publishedAt} />
+
               </Col>
             );
           })

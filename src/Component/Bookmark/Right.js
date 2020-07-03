@@ -5,6 +5,8 @@ import {updateContext,storeContext} from "../../context";
 import {GetDataBookmarkContextStorage} from "../Storage/storageContext";
 
 import {Row,Col} from "reactstrap";
+import ModalToggle from "../ModalVideo";
+import {BTNBookmark} from "../Storage/storageContext";
 
 export default function Bookmark(){
 
@@ -12,10 +14,11 @@ let update=React.useContext(updateContext);
 let data=React.useContext(storeContext);
 
 React.useEffect(()=>{
-  update({BookmarkLocal:GetDataBookmarkContextStorage().bookmark});
+  update({BookmarkLocal:{
+    BookmarkLocal:GetDataBookmarkContextStorage().bookmark
+    }
+  });
 },[update]);
-
-console.log(data.BookmarkLocal);
 
 if(window.localStorage){
 
@@ -30,22 +33,31 @@ if(window.localStorage){
       <Col sm="10" md="10" className="mt-3 mb-3">
         <Row>
           <Col sm="12" md="12" align="center">
-            <h3>Bookmark</h3>
+            <h3>Lagu Favorite</h3>
           </Col>
         </Row>
         <Row style={{"max-height":"87.5vh","overflow":"auto"}}>
         {
-          Object.keys(data.BookmarkLocal).length<=0?<div className="m-3" align="center"><h3>No data - Data is empty</h3></div>:Object.values(data.BookmarkLocal).map((item,index)=>{
+          Object.keys(GetDataBookmarkContextStorage().bookmark).length<=0?<div className="m-3" align="center"><h3>No data - Data is empty</h3></div>:Object.values(GetDataBookmarkContextStorage().bookmark).map((item,index)=>{
 
             return (
               <React.Fragment>
                 <Col sm="3" md="3" className="m-1">
-                  <iframe title={item.id.videoId} src={`https://www.youtube.com/embed/${item.id.videoId}?controls=1`} width="100%" height="100%" style={{"border":"none"}}></iframe>
+                  <img src={item.snippet===undefined?"/assets/favicon.ico":item.snippet.thumbnails.high.url} width="100%" height="100%" alt="foto" />
+                  {/*
+                    <iframe title={item.id.videoId} src={`https://www.youtube.com/embed/${item.id.videoId}?controls=1`} width="100%" height="100%" style={{"border":"none"}}></iframe>
+                  */}
                 </Col>
                 <Col sm="8" md="8" className="m-1">
-                  <h5>{item.snippet.title}</h5>
+                  <h5>{
+                    window.localStorage?
+                    <BTNBookmark keyId={item.id.videoId} value={item} initName={"Bookmark"} />:null
+                  } {item.snippet.title}</h5>
                   <div>Diupload oleh : {item.snippet.channelTitle}</div>
                   <div>Published time : {new Date(item.snippet.publishedAt).toLocaleDateString()+" "+new Date(item.snippet.publishedAt).toLocaleTimeString()}</div>
+                  <div>
+                    <ModalToggle videoId={item.id.videoId} titleHeader={item.snippet.title} date={item.snippet.publishedAt} />
+                  </div>
                   <q>{item.snippet.description}</q>
                 </Col>
               </React.Fragment>

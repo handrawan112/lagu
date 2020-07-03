@@ -6,8 +6,7 @@ import "./LeftStyle.css";
 import {storeContext,updateContext,urlContext,apiContext} from "../../context";
 import {Link,useRouteMatch} from "react-router-dom";
 
-import dummy from "../listLagu.json";
-
+import {GetDataBookmarkContextStorage,SaveHistoryContextStorage,CheckedHistoryContextStorage,GetDataHistoryContextStorage} from "../Storage/storageContext";
 import axios from "axios";
 
 export default function Left(){
@@ -19,7 +18,6 @@ let API_YT=React.useContext(apiContext);
 let baseUrl=React.useContext(urlContext);
 let lagu=React.useContext(storeContext);
 let update=React.useContext(updateContext);
-let store=React.useContext(storeContext);
 //global context
 
 const [search,setSearch]=React.useState("musik indonesia");
@@ -34,28 +32,28 @@ const stringify=React.useCallback((handrawan)=>{
 },[]);
 
 const getLaguList=React.useCallback(()=>{
-  update({LIST_LAGU:dummy});
-  // let params={
-  //   part:"snippet",
-  //   key:API_YT,
-  //   maxResults:50,
-  //   q:search,
-  // };
-  // axios({
-  //   url:`${baseUrl}?${stringify(params)}`,
-  //   method:"GET",
-  // }).then(({data})=>{
-  //   update({type:"LIST_LAGU",LIST_LAGU:data});
-  // }).catch(err=>{
-  //   let msg="";
-  //   if(err.response.data.message===undefined){
-  //     msg=err.message;
-  //   }else{
-  //     msg=err.response.data.message;
-  //   }
-  //   update({type:"ERROR",ERROR:msg});
-  // });
-},[baseUrl,stringify,API_YT,search,update,dummy]);
+  update({BookmarkLocal:{BookmarkLocal:GetDataBookmarkContextStorage().bookmark}})
+  let params={
+    part:"snippet",
+    key:API_YT,
+    maxResults:50,
+    q:search,
+  };
+  axios({
+    url:`${baseUrl}?${stringify(params)}`,
+    method:"GET",
+  }).then(({data})=>{
+    update({type:"LIST_LAGU",LIST_LAGU:data});
+  }).catch(err=>{
+    let msg="";
+    if(err.response.data.message===undefined){
+      msg=err.message;
+    }else{
+      msg=err.response.data.message;
+    }
+    update({type:"ERROR",ERROR:msg});
+  });
+},[baseUrl,stringify,API_YT,search,update]);
 
 React.useEffect(()=>{
   getLaguList();
@@ -64,7 +62,10 @@ React.useEffect(()=>{
 const getLagu=React.useCallback((e)=>{
   e.preventDefault();
   getLaguList();
-},[getLaguList]);
+  if(!CheckedHistoryContextStorage()){
+    SaveHistoryContextStorage(window.btoa(search),search,"History");
+  }
+},[getLaguList,search]);
 
 const handleSearch=React.useCallback((e)=>{
   setSearch(e.target.value);
@@ -92,21 +93,21 @@ const handleSearch=React.useCallback((e)=>{
         <Row>
           <div className="mb-3">
             <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to={`${path}`}>
-              <h6><i className="fa fa-home" />Home</h6>
+              <h6><i className="fa fa-home" />Home <span className="badge badge-dark">{lagu.LIST_LAGU===undefined?null:lagu.LIST_LAGU.items.filter((item)=>item.id.videoId===undefined?null:item).length} Lagu</span></h6>
             </Link>
           </div>
         </Row>
         <Row>
           <div className="mb-3">
             <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to={`${path}/bookmark`}>
-              <h6><i className="fa fa-bookmark" /> Bookmark</h6>
+              <h6><i className="fa fa-bookmark" /> Favorite <span className="badge badge-dark">{Object.keys(GetDataBookmarkContextStorage().bookmark).length}</span></h6>
             </Link>
           </div>
         </Row>
         <Row>
           <div className="mb-3">
             <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to={`${path}/history`}>
-              <h6><i className="fa fa-history" /> History</h6>
+              <h6><i className="fa fa-history" /> History <span className="badge badge-dark">{Object.keys(GetDataHistoryContextStorage().history).length}</span></h6>
             </Link>
           </div>
         </Row>

@@ -70,12 +70,12 @@ let addBookmark=React.useCallback(()=>{
 if(CheckedBookmarkContextStorage(props.keyId)){
 
   return (
-    <button className="p-1 badge badge-soft-success" style={{"border":"none"}} onClick={()=>removeBookmark()}><i className="fa fa-bookmark text-primary" /> Unsave</button>
+    <button className="p-1 badge badge-soft-success" style={{"border":"none"}} onClick={()=>removeBookmark()}><i className="fa fa-bookmark text-primary" /></button>
   );
 }else{
 
   return (
-    <button className="p-1 badge badge-soft-success" style={{"border":"none"}} onClick={()=>addBookmark()}><i className="fa fa-star text-primary" /> Save</button>
+    <button className="p-1 badge badge-soft-success" style={{"border":"none"}} onClick={()=>addBookmark()}><i className="fa fa-star text-primary" /></button>
   );
 }
 }
@@ -83,50 +83,29 @@ if(CheckedBookmarkContextStorage(props.keyId)){
 
 //History storage
 export function SaveHistoryContextStorage(key,value,initName){
-let initData=JSON.parse(localStorage.getItem("bookmark"))||{bookmark:{}};
-  if(Object.keys(initData["bookmark"]).includes(key)){
-    Swal.fire({
-      icon:"error",
-      title:`Storage for key ${window.btoa(key)}`,
-      text:`Saved failed`,
-      timer:10000
-    })
-  }else{
-    initData["bookmark"][key]=value;
-    Swal.fire({
-      icon:"success",
-      title:`Storage for key ${window.btoa(key)}`,
-      text:`Saved success`,
-      timer:10000
-    })
-  }
-  localStorage.setItem("bookmark",JSON.stringify(initData));
+let initData=JSON.parse(localStorage.getItem("history"))||{history:{}};
+    initData["history"][key]=value;
+    localStorage.setItem("history",JSON.stringify(initData));
 }
 
 export function RemoveHistoryContextStorage(key){
-  let initData=JSON.parse(localStorage.getItem("bookmark"))||{bookmark:{}};
-  if(Object.keys(initData["bookmark"]).includes(key)){
-    Swal.fire({
-      icon:"success",
-      title:`Storage for key ${window.btoa(key)}`,
-      text:`Deleted success`,
-      timer:10000
-    });
-    delete initData["bookmark"][key];
+  let initData=JSON.parse(localStorage.getItem("history"))||{history:{}};
+  if(Object.keys(initData["history"]).includes(key)){
+    delete initData["history"][key];
   }
-  localStorage.setItem("bookmark",JSON.stringify(initData));
+  localStorage.setItem("history",JSON.stringify(initData));
 }
 
 export function CheckedHistoryContextStorage(key){
-  let initData=JSON.parse(localStorage.getItem("bookmark"))||{bookmark:{}};
-  if(Object.keys(initData["bookmark"]).includes(key)){
+  let initData=JSON.parse(localStorage.getItem("history"))||{history:{}};
+  if(Object.keys(initData["history"]).includes(key)){
     return true;
   }
   return false;
 }
 
 export function GetDataHistoryContextStorage(){
-  let initData=JSON.parse(localStorage.getItem("bookmark"))||{bookmark:{}};
+  let initData=JSON.parse(localStorage.getItem("history"))||{history:{}};
   return initData;
 }
 
@@ -145,16 +124,18 @@ let addBookmark=React.useCallback(()=>{
   SaveBookmarkContextStorage(keyId,value,initName);
 },[props.keyId,props.value,props.initName,update]);
 
-if(CheckedBookmarkContextStorage(props.keyId)){
+  if(CheckedBookmarkContextStorage(props.keyId)){
 
-  return (
-    <button className="p-1 badge badge-soft-success" style={{"border":"none"}} onClick={()=>removeBookmark()}><i className="fa fa-bookmark text-primary" /> Unsave</button>
-  );
-}else{
+    return (
+      <button className="p-1 badge badge-soft-success" style={{"border":"none"}} onClick={()=>removeBookmark()}><i className="fa fa-trash text-primary" /></button>
+    );
 
-  return (
-    <button className="p-1 badge badge-soft-success" style={{"border":"none"}} onClick={()=>addBookmark()}><i className="fa fa-star text-primary" /> Save</button>
-  );
-}
+  }else{
+
+    return (
+      <button className="p-1 badge badge-soft-success" style={{"border":"none"}} onClick={()=>addBookmark()}><i className="fa fa-save text-primary" /></button>
+    );
+
+  }
 }
 //History storage
