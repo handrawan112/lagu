@@ -1,16 +1,30 @@
 
+@media screen and (max-width:768px) {
+  .btn-collapse {
+    display: inline-block;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .btn-collapse {
+    display:none;
+  }
+}
+
 @media screen and (min-width:992px) {
+  .btn-collapse {
+    display:none;
+  }
+
   .LeftBG {
     background:#EFE2BA;
     color:rgb(78,79,80);
     left:0;
     padding:25px;
     text-align:left;
-    text-transform:full-width;
     height:100vh;
     margin:0 !important;
     text-decoration: none;
-    text-rendering:geometricPrecision;
   }
 }
 
@@ -19,13 +33,13 @@
     background:#EFE2BA;
     color:rgb(78,79,80);
     left:0;
-    padding:25px;
+    height:25vh;
+    padding-left:25px;
+    padding-top: 25px;
     text-align:left;
-    text-transform:full-width;
     height:auto;
     margin:0 !important;
     text-decoration: none;
-    text-rendering:geometricPrecision;
   }
 }
 

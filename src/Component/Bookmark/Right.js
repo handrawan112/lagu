@@ -8,6 +8,9 @@ import {Row,Col} from "reactstrap";
 import ModalToggle from "../ModalVideo";
 import {BTNBookmark} from "../Storage/storageContext";
 
+import DownloadMP3 from "../Fitur/DownloadMp3";
+import DownloadMP4 from "../Fitur/DownloadMp4";
+
 export default function Bookmark(){
 
 let update=React.useContext(updateContext);
@@ -30,13 +33,13 @@ if(window.localStorage){
     );
   }else{
     return (
-      <Col sm="10" md="10" className="mt-3 mb-3">
+      <Col sm="10" md="9" lg="10" className="mt-3 mb-3 RightBGBookmark">
         <Row>
           <Col sm="12" md="12" align="center">
             <h3>Lagu Favorite</h3>
           </Col>
         </Row>
-        <Row style={{"max-height":"87.5vh","overflow":"auto"}}>
+        <Row>
         {
           Object.keys(GetDataBookmarkContextStorage().bookmark).length<=0?<div className="m-3" align="center"><h3>No data - Data is empty</h3></div>:Object.values(GetDataBookmarkContextStorage().bookmark).map((item,index)=>{
 
@@ -57,8 +60,11 @@ if(window.localStorage){
                   <div>Published time : {new Date(item.snippet.publishedAt).toLocaleDateString()+" "+new Date(item.snippet.publishedAt).toLocaleTimeString()}</div>
                   <div>
                     <ModalToggle videoId={item.id.videoId} titleHeader={item.snippet.title} date={item.snippet.publishedAt} />
+                    <DownloadMP3 videoId={item.id.videoId} />
+                    <DownloadMP4 videoId={item.id.videoId} />
                   </div>
                   <q>{item.snippet.description}</q>
+
                 </Col>
               </React.Fragment>
             );
