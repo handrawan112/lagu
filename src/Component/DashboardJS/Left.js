@@ -129,11 +129,11 @@ function ListRow(props){
   return (
     <React.Fragment>
     <Row>
-    <Col xs="12" sm="12" md="12" style={{"padding":"0"}}>
+    <Col xs="10" sm="10" md="10" lg="12" style={{"padding":"0"}}>
     <form onSubmit={props.getLagu}>
-      <div className="mb-3">
+      <div className="ml-3 mb-3">
         <div class="input-group">
-          <input type="text" class="form-control" placeholder="Once - Aku Mau" onChange={props.handleSearch} required />
+          <input type="text" placeholder="Once - Aku Mau" className="form-control" onChange={props.handleSearch} required />
           <div class="input-group-prepend">
             <Button color="dark" class="input-group-text"><i className="fa fa-search" /></Button>
           </div>
@@ -144,7 +144,7 @@ function ListRow(props){
     </Row>
 
     <Row>
-      <div className="mb-3">
+      <div className="d-block ml-3 mb-3">
         <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to={`${props.path}`}>
           <h6><i className="fa fa-home" />Home
           {/*
@@ -157,14 +157,14 @@ function ListRow(props){
     </Row>
 
     <Row>
-      <div className="mb-3">
+      <div className="ml-3 mb-3">
         <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to={`${props.path}/bookmark`}>
           <h6><i className="fa fa-bookmark" /> Favorite <span className="badge badge-dark">{Object.keys(GetDataBookmarkContextStorage().bookmark).length}</span></h6>
         </Link>
       </div>
     </Row>
     <Row>
-      <div className="mb-3">
+      <div className="ml-3 mb-3">
         <Link style={{"text-decoration":"none","color":"rgb(78,79,80)"}} className="Link" to={`${props.path}/history`}>
           <h6><i className="fa fa-history" /> History <span className="badge badge-dark">{Object.keys(GetDataHistoryContextStorage().history).length}</span></h6>
         </Link>

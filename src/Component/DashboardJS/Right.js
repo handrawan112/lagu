@@ -20,7 +20,7 @@ if(lagu.LIST_LAGU_ERROR===undefined){
   return (
       <Col className="RightBG" xs="12" sm="12" md="9" lg="10">
       <Row>
-        {lagu===undefined?null:<div className="ml-3 mb-5">Ditemukan 1 dari {lagu.LIST_LAGU===undefined?null:lagu.LIST_LAGU.items.filter((item)=>item.id.videoId===undefined?null:item).length} Daftar musik</div>}
+        {lagu===undefined?null:<div className="ml-3 mb-3">Ditemukan 1 dari {lagu.LIST_LAGU===undefined?null:lagu.LIST_LAGU.items.filter((item)=>item.id.videoId===undefined?null:item).length} Daftar musik</div>}
       </Row>
       <Row>
         {

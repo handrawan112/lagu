@@ -1,9 +1,31 @@
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:256px) {
   .RightBG {
     overflow: auto;
     max-height:80vh;
     font-size:12px;
+    padding-top:5px;
+    background:#eee;
+    mix-blend-mode: luminosity;
+  }
+}
+
+@media screen and (max-width:512px) {
+  .RightBG {
+    overflow: auto;
+    max-height:80vh;
+    font-size:14px;
+    padding-top:5px;
+    background:#eee;
+    mix-blend-mode: luminosity;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .RightBG {
+    overflow: auto;
+    max-height:80vh;
+    font-size:16px;
     padding-top:5px;
     background:#eee;
     mix-blend-mode: luminosity;

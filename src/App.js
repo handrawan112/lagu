@@ -10,7 +10,7 @@ function App() {
   let history=useHistory();
 
   React.useEffect(()=>{
-
+    history.push("/lagu");
   },[history]);
 
   return (
