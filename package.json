@@ -1,5 +1,6 @@
 {
   "name": "wlagu",
+  "homepage":"https://handrawanw.github.io/lagu",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,17 +9,14 @@
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.19.2",
     "react": "^16.13.1",
-    "react-copy-to-clipboard": "^5.0.2",
     "react-dom": "^16.13.1",
-    "react-indexed-db": "^1.0.12",
-    "react-loading-skeleton": "^2.1.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "reactstrap": "^8.4.1",
-    "redux": "^4.0.5"
+    "reactstrap": "^8.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -40,6 +38,7 @@
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
+    "gh-pages": "^3.1.0",
     "sweetalert2": "^9.15.2"
   }
 }

@@ -1,0 +1,19 @@
+.HomePageBG {
+  width:100vw;
+  height: 100vh;
+  background-image:url("https://mcdn.wallpapersafari.com/medium/55/27/4u6KTg.jpg");
+  background-repeat: no-repeat;
+  background-position:center top;
+  background-attachment: fixed;
+  background-size:100vw 100vh;
+  color: WhiteSmoke;
+}
+
+.text {
+  position: absolute;
+  top:50%;
+}
+
+.t-none {
+  text-decoration: none;
+}
